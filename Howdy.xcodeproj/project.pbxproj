@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375B912C2AF3FEA900D6450D /* HowdyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B912B2AF3FEA900D6450D /* HowdyApp.swift */; };
+		375B912E2AF3FEA900D6450D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B912D2AF3FEA900D6450D /* ContentView.swift */; };
+		375B91302AF3FEAA00D6450D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375B912F2AF3FEAA00D6450D /* Assets.xcassets */; };
+		375B91332AF3FEAA00D6450D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375B91322AF3FEAA00D6450D /* Preview Assets.xcassets */; };
+		375B913E2AF3FEAA00D6450D /* HowdyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B913D2AF3FEAA00D6450D /* HowdyTests.swift */; };
+		375B91482AF3FEAA00D6450D /* HowdyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B91472AF3FEAA00D6450D /* HowdyUITests.swift */; };
+		375B914A2AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B91492AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375B913A2AF3FEAA00D6450D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375B91202AF3FEA900D6450D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375B91272AF3FEA900D6450D;
+			remoteInfo = Howdy;
+		};
+		375B91442AF3FEAA00D6450D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375B91202AF3FEA900D6450D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375B91272AF3FEA900D6450D;
+			remoteInfo = Howdy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375B91282AF3FEA900D6450D /* Howdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Howdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B912B2AF3FEA900D6450D /* HowdyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyApp.swift; sourceTree = "<group>"; };
+		375B912D2AF3FEA900D6450D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		375B912F2AF3FEAA00D6450D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		375B91322AF3FEAA00D6450D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		375B91342AF3FEAA00D6450D /* Howdy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Howdy.entitlements; sourceTree = "<group>"; };
+		375B91392AF3FEAA00D6450D /* HowdyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowdyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B913D2AF3FEAA00D6450D /* HowdyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyTests.swift; sourceTree = "<group>"; };
+		375B91432AF3FEAA00D6450D /* HowdyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowdyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B91472AF3FEAA00D6450D /* HowdyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUITests.swift; sourceTree = "<group>"; };
+		375B91492AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375B91252AF3FEA900D6450D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375B91362AF3FEAA00D6450D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375B91402AF3FEAA00D6450D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372F593A2AF4178E001F6864 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		375B911F2AF3FEA900D6450D = {
+			isa = PBXGroup;
+			children = (
+				375B912A2AF3FEA900D6450D /* Howdy */,
+				375B913C2AF3FEAA00D6450D /* HowdyTests */,
+				375B91462AF3FEAA00D6450D /* HowdyUITests */,
+				375B91292AF3FEA900D6450D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375B91292AF3FEA900D6450D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375B91282AF3FEA900D6450D /* Howdy.app */,
+				375B91392AF3FEAA00D6450D /* HowdyTests.xctest */,
+				375B91432AF3FEAA00D6450D /* HowdyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375B912A2AF3FEA900D6450D /* Howdy */ = {
+			isa = PBXGroup;
+			children = (
+				372F593A2AF4178E001F6864 /* Networking */,
+				375B912B2AF3FEA900D6450D /* HowdyApp.swift */,
+				375B912D2AF3FEA900D6450D /* ContentView.swift */,
+				375B912F2AF3FEAA00D6450D /* Assets.xcassets */,
+				375B91342AF3FEAA00D6450D /* Howdy.entitlements */,
+				375B91312AF3FEAA00D6450D /* Preview Content */,
+			);
+			path = Howdy;
+			sourceTree = "<group>";
+		};
+		375B91312AF3FEAA00D6450D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				375B91322AF3FEAA00D6450D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		375B913C2AF3FEAA00D6450D /* HowdyTests */ = {
+			isa = PBXGroup;
+			children = (
+				375B913D2AF3FEAA00D6450D /* HowdyTests.swift */,
+			);
+			path = HowdyTests;
+			sourceTree = "<group>";
+		};
+		375B91462AF3FEAA00D6450D /* HowdyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				375B91472AF3FEAA00D6450D /* HowdyUITests.swift */,
+				375B91492AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift */,
+			);
+			path = HowdyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375B91272AF3FEA900D6450D /* Howdy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375B914D2AF3FEAA00D6450D /* Build configuration list for PBXNativeTarget "Howdy" */;
+			buildPhases = (
+				375B91242AF3FEA900D6450D /* Sources */,
+				375B91252AF3FEA900D6450D /* Frameworks */,
+				375B91262AF3FEA900D6450D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Howdy;
+			productName = Howdy;
+			productReference = 375B91282AF3FEA900D6450D /* Howdy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375B91382AF3FEAA00D6450D /* HowdyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375B91502AF3FEAA00D6450D /* Build configuration list for PBXNativeTarget "HowdyTests" */;
+			buildPhases = (
+				375B91352AF3FEAA00D6450D /* Sources */,
+				375B91362AF3FEAA00D6450D /* Frameworks */,
+				375B91372AF3FEAA00D6450D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375B913B2AF3FEAA00D6450D /* PBXTargetDependency */,
+			);
+			name = HowdyTests;
+			productName = HowdyTests;
+			productReference = 375B91392AF3FEAA00D6450D /* HowdyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		375B91422AF3FEAA00D6450D /* HowdyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375B91532AF3FEAA00D6450D /* Build configuration list for PBXNativeTarget "HowdyUITests" */;
+			buildPhases = (
+				375B913F2AF3FEAA00D6450D /* Sources */,
+				375B91402AF3FEAA00D6450D /* Frameworks */,
+				375B91412AF3FEAA00D6450D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375B91452AF3FEAA00D6450D /* PBXTargetDependency */,
+			);
+			name = HowdyUITests;
+			productName = HowdyUITests;
+			productReference = 375B91432AF3FEAA00D6450D /* HowdyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375B91202AF3FEA900D6450D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					375B91272AF3FEA900D6450D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					375B91382AF3FEAA00D6450D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 375B91272AF3FEA900D6450D;
+					};
+					375B91422AF3FEAA00D6450D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 375B91272AF3FEA900D6450D;
+					};
+				};
+			};
+			buildConfigurationList = 375B91232AF3FEA900D6450D /* Build configuration list for PBXProject "Howdy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375B911F2AF3FEA900D6450D;
+			productRefGroup = 375B91292AF3FEA900D6450D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375B91272AF3FEA900D6450D /* Howdy */,
+				375B91382AF3FEAA00D6450D /* HowdyTests */,
+				375B91422AF3FEAA00D6450D /* HowdyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375B91262AF3FEA900D6450D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375B91332AF3FEAA00D6450D /* Preview Assets.xcassets in Resources */,
+				375B91302AF3FEAA00D6450D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375B91372AF3FEAA00D6450D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375B91412AF3FEAA00D6450D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375B91242AF3FEA900D6450D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375B912E2AF3FEA900D6450D /* ContentView.swift in Sources */,
+				375B912C2AF3FEA900D6450D /* HowdyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375B91352AF3FEAA00D6450D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375B913E2AF3FEAA00D6450D /* HowdyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375B913F2AF3FEAA00D6450D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375B914A2AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift in Sources */,
+				375B91482AF3FEAA00D6450D /* HowdyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375B913B2AF3FEAA00D6450D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375B91272AF3FEA900D6450D /* Howdy */;
+			targetProxy = 375B913A2AF3FEAA00D6450D /* PBXContainerItemProxy */;
+		};
+		375B91452AF3FEAA00D6450D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375B91272AF3FEA900D6450D /* Howdy */;
+			targetProxy = 375B91442AF3FEAA00D6450D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		375B914B2AF3FEAA00D6450D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		375B914C2AF3FEAA00D6450D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		375B914E2AF3FEAA00D6450D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Howdy/Howdy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Howdy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.dan.Howdy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		375B914F2AF3FEAA00D6450D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Howdy/Howdy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Howdy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.dan.Howdy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		375B91512AF3FEAA00D6450D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.dan.HowdyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Howdy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Howdy";
+			};
+			name = Debug;
+		};
+		375B91522AF3FEAA00D6450D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.dan.HowdyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Howdy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Howdy";
+			};
+			name = Release;
+		};
+		375B91542AF3FEAA00D6450D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.dan.HowdyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Howdy;
+			};
+			name = Debug;
+		};
+		375B91552AF3FEAA00D6450D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.dan.HowdyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Howdy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375B91232AF3FEA900D6450D /* Build configuration list for PBXProject "Howdy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375B914B2AF3FEAA00D6450D /* Debug */,
+				375B914C2AF3FEAA00D6450D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375B914D2AF3FEAA00D6450D /* Build configuration list for PBXNativeTarget "Howdy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375B914E2AF3FEAA00D6450D /* Debug */,
+				375B914F2AF3FEAA00D6450D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375B91502AF3FEAA00D6450D /* Build configuration list for PBXNativeTarget "HowdyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375B91512AF3FEAA00D6450D /* Debug */,
+				375B91522AF3FEAA00D6450D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375B91532AF3FEAA00D6450D /* Build configuration list for PBXNativeTarget "HowdyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375B91542AF3FEAA00D6450D /* Debug */,
+				375B91552AF3FEAA00D6450D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375B91202AF3FEA900D6450D /* Project object */;
+}
