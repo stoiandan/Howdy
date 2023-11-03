@@ -72,13 +72,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		372F593A2AF4178E001F6864 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		375B911F2AF3FEA900D6450D = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +95,7 @@
 		375B912A2AF3FEA900D6450D /* Howdy */ = {
 			isa = PBXGroup;
 			children = (
-				372F593A2AF4178E001F6864 /* Networking */,
+				379B40482AF4FA90004BEB2A /* Networking */,
 				375B912B2AF3FEA900D6450D /* HowdyApp.swift */,
 				375B912D2AF3FEA900D6450D /* ContentView.swift */,
 				375B912F2AF3FEAA00D6450D /* Assets.xcassets */,
@@ -135,6 +128,13 @@
 				375B91492AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift */,
 			);
 			path = HowdyUITests;
+			sourceTree = "<group>";
+		};
+		379B40482AF4FA90004BEB2A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
