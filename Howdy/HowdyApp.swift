@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct HowdyApp: App {
+    
+    let multicaster = Multicaster.shared!
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                 
+                }
         }
+
     }
 }
