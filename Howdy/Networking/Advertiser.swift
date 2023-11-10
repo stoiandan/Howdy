@@ -8,15 +8,15 @@
 import Foundation
 import Network
 
-class Multicaster {
+class Advertiser {
     
-    public static let shared  = Multicaster()
+    public static let shared  = Advertiser()
     
     private let listener: NWListener
     
-    private(set) var connectionState = "Disconnected"
+    private(set) var connectionState: AdvertiserState = .disconnected
    
-    private init?() {
+    private init() {
         
         guard let listener = try? NWListener(service: .init(name: "Howdy", type: "_zero._udp"), using: .udp) else {
             fatalError("Could not register Howdy as a Bonjour service")
@@ -27,11 +27,9 @@ class Multicaster {
         listener.stateUpdateHandler = { newState in
             switch newState {
             case.ready:
-                print("starting")
-            case .failed(let error):
-                print("error: \(error)")
+                self.connectionState = .connected
             default:
-                print(newState)
+                self.connectionState = .disconnected
             }
         }
         
