@@ -10,14 +10,12 @@ import SwiftUI
 @main
 struct HowdyApp: App {
     
-    let multicaster = Advertiser.shared
+    let advertiser = Advertiser.shared
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .onAppear {
-                 
-                }
+                .environment(advertiser)
         }
 
     }

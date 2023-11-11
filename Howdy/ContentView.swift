@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(Advertiser.self) var advertiser
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack {
+            VStack {
+                StatusIndicator(state: advertiser.connectionState)
+                    .onTapGesture {
+                        advertiser.switchState()
+                    }
+                Spacer()
+            }
+            Spacer()
         }
-        .padding()
     }
 }
 

@@ -8,6 +8,8 @@
 import Foundation
 import Network
 
+
+@Observable
 class Advertiser {
     
     public static let shared  = Advertiser()
@@ -38,6 +40,16 @@ class Advertiser {
         }
         
         listener.start(queue: .main)
+    }
+    
+    public func switchState() {
+        if connectionState == .connected {
+            listener.queue?.suspend()
+        } else {
+            listener.queue?.resume()
+        }
+        
+        connectionState = connectionState.swtichState()
     }
     
 }
