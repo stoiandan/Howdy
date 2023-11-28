@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3703D4972B15F06E00377845 /* HowdyMessageReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703D4962B15F06E00377845 /* HowdyMessageReceiver.swift */; };
 		37096A3E2AFEA5CC0092783F /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A3D2AFEA5CC0092783F /* Advertiser.swift */; };
 		37096A422AFEA6110092783F /* AdvertiserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A412AFEA6100092783F /* AdvertiserState.swift */; };
 		37096A462AFEAD3F0092783F /* StatusIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A452AFEAD3F0092783F /* StatusIndicator.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3703D4962B15F06E00377845 /* HowdyMessageReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyMessageReceiver.swift; sourceTree = "<group>"; };
 		37096A3D2AFEA5CC0092783F /* Advertiser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 		37096A412AFEA6100092783F /* AdvertiserState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertiserState.swift; sourceTree = "<group>"; };
 		37096A452AFEAD3F0092783F /* StatusIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicator.swift; sourceTree = "<group>"; };
@@ -89,6 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3703D4942B15EFF000377845 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3703D4962B15F06E00377845 /* HowdyMessageReceiver.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3703D4952B15F04E00377845 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37096A492AFFA6000092783F /* HowdyMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		37096A432AFEAD290092783F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +146,8 @@
 		375B912A2AF3FEA900D6450D /* Howdy */ = {
 			isa = PBXGroup;
 			children = (
+				3703D4952B15F04E00377845 /* Model */,
+				3703D4942B15EFF000377845 /* Protocols */,
 				37096A432AFEAD290092783F /* Views */,
 				379B404A2AF4FD84004BEB2A /* Info.plist */,
 				379B40482AF4FA90004BEB2A /* Networking */,
@@ -172,7 +192,6 @@
 				37096A412AFEA6100092783F /* AdvertiserState.swift */,
 				372077BC2AF519A500090E8A /* IPv6Address+Extension.swift */,
 				37096A472AFFA11D0092783F /* HowdyProtocol.swift */,
-				37096A492AFFA6000092783F /* HowdyMessage.swift */,
 				37096A4B2AFFAE4C0092783F /* HowdyMessageHeader.swift */,
 				37096A4D2AFFB0060092783F /* NWMessage+Extension.swift */,
 			);
@@ -318,6 +337,7 @@
 				37096A4E2AFFB0060092783F /* NWMessage+Extension.swift in Sources */,
 				37096A4A2AFFA6000092783F /* HowdyMessage.swift in Sources */,
 				375B912C2AF3FEA900D6450D /* HowdyApp.swift in Sources */,
+				3703D4972B15F06E00377845 /* HowdyMessageReceiver.swift in Sources */,
 				372077BD2AF519A500090E8A /* IPv6Address+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
