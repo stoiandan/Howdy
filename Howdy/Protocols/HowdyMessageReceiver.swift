@@ -3,6 +3,6 @@
 import Foundation
 
 
-protocol HowdyMessageReceiver {
+protocol HowdyMessageReceiver: AnyObject {
     func receive(_ howdyMessage: HowdyMessage)
 }

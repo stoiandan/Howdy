@@ -15,7 +15,6 @@ struct HowdyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(advertiser)
                 .onAppear {
                     advertiser.start()
                 }

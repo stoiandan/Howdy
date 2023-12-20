@@ -9,15 +9,16 @@ import Foundation
 import Network
 
 extension NWProtocolFramer.Message {
-    convenience init(with howdyHeaderInfo: (UInt,UInt)) {
+
+    convenience init(with howdyHeaderInfo: UInt) {
         self.init(definition: HowdyProtocol.definition)
-        self[HowdyProtocol.label] = HowdyMessageHeader(hostnameSize: howdyHeaderInfo.0, ipV4Size: howdyHeaderInfo.1)
+        self["hostnameSize"] = howdyHeaderInfo
     }
     
-    var howdyMessage: HowdyMessageHeader {
-        guard let message = self[HowdyProtocol.label] as? HowdyMessageHeader else {
-            return HowdyMessageHeader(hostnameSize: 0, ipV4Size: 0)
+    var hostnameSize: UInt {
+        guard let size = self["hostnameSize"] as? UInt else {
+            return 0
         }
-        return message
+        return size
     }
 }

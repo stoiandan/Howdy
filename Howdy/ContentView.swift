@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @Environment(Advertiser.self) var advertiser
+    @State var advertiser = Advertiser.shared
+    @State var messages = MessagesViewModel()
     
     var body: some View {
         HStack {
+
             VStack {
                 StatusIndicator(state: advertiser.connectionState)
                     .onTapGesture {
-                        advertiser.switchState()
+                       advertiser.switchState()
                     }
+                ForEach(messages.machines, id: \.self) { machine  in
+                    Text(machine.hostname)
+                }
                 Spacer()
+
             }
             Spacer()
         }

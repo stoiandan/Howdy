@@ -9,7 +9,6 @@ import Foundation
 import Network
 
 
-struct HowdyMessage {
+struct HowdyMessage: Codable, Hashable {
     let hostname: String
-    let ipv4: IPv4Address
 }

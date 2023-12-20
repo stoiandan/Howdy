@@ -41,8 +41,7 @@ class HowdyProtocol: NWProtocolFramerImplementation {
                 if buffer.count < headerSize {
                     return 0
                 }
-                
-                tmpHeader = HowdyMessageHeader(UnsafeRawBufferPointer(buffer))
+                    tmpHeader = HowdyMessageHeader(buffer)
                 
                 return headerSize
             }
@@ -53,13 +52,9 @@ class HowdyProtocol: NWProtocolFramerImplementation {
             
             
           
-            let message =  NWProtocolFramer.Message(with: (header.hostnameSize, header.ipV4Size))
-          
-            
-            if !framer.deliverInputNoCopy(length: Int(header.messageSize), message: message, isComplete: true) {
-                return 0
-            }
-            
+            let message =  NWProtocolFramer.Message(with: (header.hostnameSize))
+            let  _  = framer.deliverInputNoCopy(length: Int(header.hostnameSize), message: message, isComplete: true)
+    
         }
     }
     
@@ -68,7 +63,7 @@ class HowdyProtocol: NWProtocolFramerImplementation {
                       messageLength: Int,
                       isComplete: Bool) {
         
-        let header = message.howdyMessage
+        let header = HowdyMessageHeader(hostnameSize: message.hostnameSize)
         
         framer.writeOutput(data: header.encoded)
         

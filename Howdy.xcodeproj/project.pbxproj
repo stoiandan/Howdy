@@ -15,6 +15,9 @@
 		37096A4A2AFFA6000092783F /* HowdyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A492AFFA6000092783F /* HowdyMessage.swift */; };
 		37096A4C2AFFAE4C0092783F /* HowdyMessageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A4B2AFFAE4C0092783F /* HowdyMessageHeader.swift */; };
 		37096A4E2AFFB0060092783F /* NWMessage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A4D2AFFB0060092783F /* NWMessage+Extension.swift */; };
+		371021682B2BC82C0028D414 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371021672B2BC82C0028D414 /* Browser.swift */; };
+		3710216A2B30DDCA0028D414 /* IpResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371021692B30DDCA0028D414 /* IpResolver.swift */; };
+		371907992B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371907982B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift */; };
 		372077BD2AF519A500090E8A /* IPv6Address+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372077BC2AF519A500090E8A /* IPv6Address+Extension.swift */; };
 		375B912C2AF3FEA900D6450D /* HowdyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B912B2AF3FEA900D6450D /* HowdyApp.swift */; };
 		375B912E2AF3FEA900D6450D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B912D2AF3FEA900D6450D /* ContentView.swift */; };
@@ -23,6 +26,7 @@
 		375B913E2AF3FEAA00D6450D /* HowdyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B913D2AF3FEAA00D6450D /* HowdyTests.swift */; };
 		375B91482AF3FEAA00D6450D /* HowdyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B91472AF3FEAA00D6450D /* HowdyUITests.swift */; };
 		375B914A2AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B91492AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift */; };
+		3798FD402B2B97790036E3F1 /* HowdyConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3798FD3F2B2B97790036E3F1 /* HowdyConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,9 @@
 		37096A492AFFA6000092783F /* HowdyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyMessage.swift; sourceTree = "<group>"; };
 		37096A4B2AFFAE4C0092783F /* HowdyMessageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyMessageHeader.swift; sourceTree = "<group>"; };
 		37096A4D2AFFB0060092783F /* NWMessage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NWMessage+Extension.swift"; sourceTree = "<group>"; };
+		371021672B2BC82C0028D414 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		371021692B30DDCA0028D414 /* IpResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpResolver.swift; sourceTree = "<group>"; };
+		371907982B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatiorViewModel.swift; sourceTree = "<group>"; };
 		372077BC2AF519A500090E8A /* IPv6Address+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IPv6Address+Extension.swift"; sourceTree = "<group>"; };
 		375B91282AF3FEA900D6450D /* Howdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Howdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375B912B2AF3FEA900D6450D /* HowdyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyApp.swift; sourceTree = "<group>"; };
@@ -63,6 +70,7 @@
 		375B91432AF3FEAA00D6450D /* HowdyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowdyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		375B91472AF3FEAA00D6450D /* HowdyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUITests.swift; sourceTree = "<group>"; };
 		375B91492AF3FEAA00D6450D /* HowdyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3798FD3F2B2B97790036E3F1 /* HowdyConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyConnection.swift; sourceTree = "<group>"; };
 		379B404A2AF4FD84004BEB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				37096A452AFEAD3F0092783F /* StatusIndicator.swift */,
+				371907982B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift */,
 			);
 			path = StatusIndicator;
 			sourceTree = "<group>";
@@ -194,6 +203,9 @@
 				37096A472AFFA11D0092783F /* HowdyProtocol.swift */,
 				37096A4B2AFFAE4C0092783F /* HowdyMessageHeader.swift */,
 				37096A4D2AFFB0060092783F /* NWMessage+Extension.swift */,
+				3798FD3F2B2B97790036E3F1 /* HowdyConnection.swift */,
+				371021672B2BC82C0028D414 /* Browser.swift */,
+				371021692B30DDCA0028D414 /* IpResolver.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -331,8 +343,12 @@
 				37096A3E2AFEA5CC0092783F /* Advertiser.swift in Sources */,
 				37096A482AFFA11D0092783F /* HowdyProtocol.swift in Sources */,
 				37096A4C2AFFAE4C0092783F /* HowdyMessageHeader.swift in Sources */,
+				3710216A2B30DDCA0028D414 /* IpResolver.swift in Sources */,
 				375B912E2AF3FEA900D6450D /* ContentView.swift in Sources */,
+				371907992B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift in Sources */,
 				37096A422AFEA6110092783F /* AdvertiserState.swift in Sources */,
+				371021682B2BC82C0028D414 /* Browser.swift in Sources */,
+				3798FD402B2B97790036E3F1 /* HowdyConnection.swift in Sources */,
 				37096A462AFEAD3F0092783F /* StatusIndicator.swift in Sources */,
 				37096A4E2AFFB0060092783F /* NWMessage+Extension.swift in Sources */,
 				37096A4A2AFFA6000092783F /* HowdyMessage.swift in Sources */,
