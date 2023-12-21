@@ -1,7 +1,7 @@
 # Howdy
 
 Howdy helps you discover all your local LAN machines, including macOS, Windows and Linux.
-It's able to tell your their _mDNS_ names, along with IP addresses.
+It's able to tell your their _mDNS_ names.
 
 ## How?
 
