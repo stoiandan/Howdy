@@ -91,3 +91,4 @@ iOSInjectionProject/
 
 # Binary's and other user/system data
 *.DS_Store
+.DS_Store
