@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var advertiser = Advertiser.shared
+    @Environment(Advertiser.self) var advertiser
     @State var messages = MessagesViewModel()
     
     var body: some View {
@@ -19,11 +19,12 @@ struct ContentView: View {
                     .onTapGesture {
                        advertiser.switchState()
                     }
-                ForEach(messages.machines, id: \.self) { machine  in
-                    Text(machine.hostname)
-                }
                 Spacer()
 
+            }
+            let data = ["das","dsa","dsdsadadsa"]
+            Table(messages.machines) {
+                TableColumn("Machine Name", value: \.hostname)
             }
             Spacer()
         }

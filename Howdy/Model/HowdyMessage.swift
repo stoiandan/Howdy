@@ -9,6 +9,7 @@ import Foundation
 import Network
 
 
-struct HowdyMessage: Codable, Hashable {
+struct HowdyMessage: Codable, Hashable, Identifiable {
+    let id = UUID()
     let hostname: String
 }

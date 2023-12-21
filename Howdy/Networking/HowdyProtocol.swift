@@ -51,9 +51,10 @@ class HowdyProtocol: NWProtocolFramerImplementation {
             }
             
             
-          
-            let message =  NWProtocolFramer.Message(with: (header.hostnameSize))
+            
+           let message =  NWProtocolFramer.Message(with: (header.hostnameSize))
             let  _  = framer.deliverInputNoCopy(length: Int(header.hostnameSize), message: message, isComplete: true)
+          //  framer.deliverInput(data: "ce mai faci".data(using: .utf8)!, message: message, isComplete: true)
     
         }
     }
