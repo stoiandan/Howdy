@@ -22,7 +22,6 @@ struct ContentView: View {
                 Spacer()
 
             }
-            let data = ["das","dsa","dsdsadadsa"]
             Table(messages.machines) {
                 TableColumn("Machine Name", value: \.hostname)
             }
