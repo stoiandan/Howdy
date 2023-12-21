@@ -19,7 +19,7 @@ Here's and example of a Howdy instnace listing other three machines on the netwo
 
 <img width="1012" alt="image" src="https://github.com/stoiandan/Howdy/assets/10388612/6312fbca-d2ec-463f-834e-2723d5c00472">
 
-To simulate these machines. I've used the `dns-sd` UNIX command to search for Bojour services and resolve the port.
+To simulate these machines. I've used the `dns-sd` UNIX command to search for Bonjour services and resolve the port.
 I've then used netcat (`nc`) combined with echo to send an 8 byte `UInt` header via `UDP` and a plain-text string (for demo purposes):
 
 ```zsh
