@@ -12,8 +12,8 @@ It contains a fixed sized header of `8 bytes` that represents an `UInt`, decleri
 
 <img width="636" alt="image" src="https://github.com/stoiandan/Howdy/assets/10388612/56be2126-cdf6-4066-b536-1deb3b31c03c">
 
-So, every time a Howdy app starts, it publishes it's service on mDNS (Bonjour) and browse over other avlaible service on the local netowrk.
-If it finds one, it sends it's hostname via the Howdy (zero) protocol. \
+So, every time a app instance starts, it publishes it's service on mDNS (Bonjour) and browse over other avlaible service on the local netowrk.
+If it finds one, it sends it's hostname via the Howdy (zero) protocol.
 
 Here's and example of a Howdy instnace listing other three machines on the network:
 
