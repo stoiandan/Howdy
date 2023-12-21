@@ -28,7 +28,7 @@ echo -n -e '\x09\x00\x00\x00\x00\x00\x00\x00bar.local' | nc -u localhost 65172
 
 ## Why?
 
-While macOS's `Finder` does a good job in listing computers, soemtimes their simply not listed (probably because of OS policies) and
+While macOS's `Finder` does a good job in listing computers, sometimes they're simply not listed (probably because of OS policies) and
 not enough info is available (for example the IP Address). 
 `Howdy` allows you to retireve all that, without lowering security, it also gives you more info.
 
