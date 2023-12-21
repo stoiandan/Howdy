@@ -7,7 +7,7 @@ It's able to tell your their _mDNS_ names.
 
 Howdy makes use of Apple's `Bonjour`, a zero-configuration netwoork service, via `Network.framework`.
 
-Howdy uses its very own protocol called `zero`, build on top of `TCP/IP`. It's a simple protocol, really.
+It uses its very own protocol called `zero`, build on top of `TCP/IP`. It's a simple protocol, really.
 It contains a fixed sized header of `8 bytes` that contains an `UInt`, declering the size of future `json` encoded `hostname` (for Unicode support 😃):
 
 <img width="636" alt="image" src="https://github.com/stoiandan/Howdy/assets/10388612/56be2126-cdf6-4066-b536-1deb3b31c03c">
