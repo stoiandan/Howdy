@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(Advertiser.self) var advertiser
-    @State var messages = MessagesViewModel()
+    @State var messageStore = MessageStore()
     
     var body: some View {
         HStack {
@@ -22,7 +22,7 @@ struct ContentView: View {
                 Spacer()
 
             }
-            Table(messages.machines) {
+            Table(messageStore.messages) {
                 TableColumn("Machine Name", value: \.hostname)
             }
             Spacer()

@@ -16,7 +16,7 @@
 		37096A4C2AFFAE4C0092783F /* HowdyMessageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A4B2AFFAE4C0092783F /* HowdyMessageHeader.swift */; };
 		37096A4E2AFFB0060092783F /* NWMessage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37096A4D2AFFB0060092783F /* NWMessage+Extension.swift */; };
 		371021682B2BC82C0028D414 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371021672B2BC82C0028D414 /* Browser.swift */; };
-		371907992B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371907982B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift */; };
+		371907992B1A78EE0069BE70 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371907982B1A78EE0069BE70 /* MessageStore.swift */; };
 		375B912C2AF3FEA900D6450D /* HowdyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B912B2AF3FEA900D6450D /* HowdyApp.swift */; };
 		375B912E2AF3FEA900D6450D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B912D2AF3FEA900D6450D /* ContentView.swift */; };
 		375B91302AF3FEAA00D6450D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375B912F2AF3FEAA00D6450D /* Assets.xcassets */; };
@@ -54,7 +54,7 @@
 		37096A4B2AFFAE4C0092783F /* HowdyMessageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyMessageHeader.swift; sourceTree = "<group>"; };
 		37096A4D2AFFB0060092783F /* NWMessage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NWMessage+Extension.swift"; sourceTree = "<group>"; };
 		371021672B2BC82C0028D414 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
-		371907982B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatiorViewModel.swift; sourceTree = "<group>"; };
+		371907982B1A78EE0069BE70 /* MessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
 		375B91282AF3FEA900D6450D /* Howdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Howdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375B912B2AF3FEA900D6450D /* HowdyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyApp.swift; sourceTree = "<group>"; };
 		375B912D2AF3FEA900D6450D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				37096A452AFEAD3F0092783F /* StatusIndicator.swift */,
-				371907982B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift */,
 			);
 			path = StatusIndicator;
 			sourceTree = "<group>";
@@ -158,6 +157,7 @@
 				379B40482AF4FA90004BEB2A /* Networking */,
 				375B912B2AF3FEA900D6450D /* HowdyApp.swift */,
 				375B912D2AF3FEA900D6450D /* ContentView.swift */,
+				371907982B1A78EE0069BE70 /* MessageStore.swift */,
 				375B912F2AF3FEAA00D6450D /* Assets.xcassets */,
 				375B91342AF3FEAA00D6450D /* Howdy.entitlements */,
 				375B91312AF3FEAA00D6450D /* Preview Content */,
@@ -338,7 +338,7 @@
 				37096A482AFFA11D0092783F /* HowdyProtocol.swift in Sources */,
 				37096A4C2AFFAE4C0092783F /* HowdyMessageHeader.swift in Sources */,
 				375B912E2AF3FEA900D6450D /* ContentView.swift in Sources */,
-				371907992B1A78EE0069BE70 /* StatusIndicatiorViewModel.swift in Sources */,
+				371907992B1A78EE0069BE70 /* MessageStore.swift in Sources */,
 				37096A422AFEA6110092783F /* AdvertiserState.swift in Sources */,
 				371021682B2BC82C0028D414 /* Browser.swift in Sources */,
 				3798FD402B2B97790036E3F1 /* HowdyConnection.swift in Sources */,

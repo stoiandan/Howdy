@@ -10,12 +10,12 @@ import Observation
 
 
 @Observable
-class MessagesViewModel: HowdyMessageReceiver {
+class MessageStore: HowdyMessageReceiver {
     func receive(_ howdyMessage: HowdyMessage) {
-        machines.append(howdyMessage)
+        messages.append(howdyMessage)
     }
     
-    private(set) var machines: [HowdyMessage] = []
+    private(set) var messages: [HowdyMessage] = []
     
     
     init() {
