@@ -38,6 +38,10 @@ class HowdyConnection {
             guard let data = dataContent else {
                 return
             }
+            context?.protocolMetadata(definition: HowdyProtocol.definition).meta
+            if let contextMessage = context?.protocolMetadata(definition: HowdyProtocol.definition) as? NWProtocolFramer.Message {
+                print(contextMessage.hostnameSize)
+            }
             
             let string = String(data: data, encoding: .utf8)!
             let howdyMessage = HowdyMessage(hostname: string)
