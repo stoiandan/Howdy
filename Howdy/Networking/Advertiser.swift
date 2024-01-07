@@ -16,7 +16,7 @@ class Advertiser {
     
     private let listener: NWListener
     
-    private var connection: [HowdyConnection] = []
+    private var connections: [HowdyConnection] = []
     
     private(set) var connectionState: AdvertiserState = .disconnected
     
@@ -58,7 +58,7 @@ class Advertiser {
         print("We have a client!")
         let howdyConn = HowdyConnection(newConnection)
         howdyConn.receiver = howdyMessageReceiverDelegate
-        connection.append(howdyConn)
+        connections.append(howdyConn)
     }
     
     public func switchState() {
